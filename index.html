@@ -56,7 +56,7 @@
               >Contact</a
             >
           </li>
-          <li class="nav__link click">
+          <li class="nav__link click" onclick="toggleContrast()">
             <a
               href="#"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
@@ -69,7 +69,7 @@
         <div class="row">
           <div class="header">
             <div class="header__content">
-              <h1 class="title">Hey</h1>
+              <h1 class="title header__title">Hey</h1>
               <h1 class="title text-green">I'm Kenric</h1>
               <p class="header__para">
                 I'm currently a
@@ -78,7 +78,7 @@
                 which is my I'm pursuing a career as a
                 <b class="text-green">Frontend Software Engineer.</b>
                 <br />
-                Here's a bit more <b class="text-green" onclick="toggleModal()">about me.</b>
+                Here's a bit more <b class="text-green click" onclick="toggleModal()">about me.</b>
               </p>
               <div class="social__list">
                 <a
@@ -159,7 +159,7 @@
           </div>
         </div>
         <div class="modal__half modal__contact">
-            <i class="fas fa-times modal__exit click">
+            <i class="fas fa-times modal__exit click" onclick="toggleModal()">
             </i>
           <h3 class="modal__title modal__title--contact">Let's have a chat</h3>
           <h4 class="modal__subtitle modal__subtitle--contact">
