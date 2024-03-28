@@ -132,6 +132,22 @@ textarea {
   margin-top: 8px;
 }
 
+nav,
+.scroll,
+.header {
+  opacity: 1;
+  visibility: visible;
+  transition: all 600ms 600ms;
+}
+
+.modal--open nav,
+.modal--open .scroll,
+.modal--open .header {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 400ms;
+}
+
 /* NAV BAR */
 
 #personal-logo {
