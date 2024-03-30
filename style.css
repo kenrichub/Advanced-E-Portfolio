@@ -451,6 +451,7 @@ nav {
   bottom: 32px;
   right: 40px;
   z-index: 100;
+  box-shadow: 0 12px 30px 0 rgb(0,0,0,0.25);
 }
 
 .scroll {
@@ -657,5 +658,29 @@ footer {
   }
   .modal__half {
     width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 52px;
+  }
+  .header__para {
+    font-size: 18px;
+  }
+  .nav__link:first-child {
+    display: none;
+  }
+  .project__description--para {
+    display: none;
+  }
+  .project__description {
+    left: 0;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .project__description--subtitle {
+    margin-bottom: 8px;
   }
 }
